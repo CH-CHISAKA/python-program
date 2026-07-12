@@ -79,3 +79,33 @@ print(new_number)
 ```
 ![alt text](<image-3.png>)
 
+A simplified version of the code would be
+
+```bash 
+
+# Define the function
+def add_three(input_var):
+    output_var = input_var + 3
+    return output_var
+    
+# Run the function with 10 as input
+# Call it with parentheses and an argument:
+# Check that the value is 13, as expected
+print(add_three(10))
+```
+
+![alt text](<image-4.png>)
+
+**Note**: When we casually refer to the add_three() function in this tutorial, we use empty closing parentheses after the function name. This is consistent with how people generally write explanations of Python code, and the empty parentheses just make it clear that we are referring to a function, as opposed to a variable or another Python object. These parentheses should always be empty, even if the function has arguments
+
+## Naming Functions
+When naming your own functions, one should 
+* Only use `lowercase letters`
+* Words separated by `underscores` instead of spaces.
+
+
+
+
+
+
+
