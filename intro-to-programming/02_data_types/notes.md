@@ -252,14 +252,25 @@ One can also can't multiply two strings, but you can multiply a string by an int
 
 This again results in a string that's just the original string concatenated with itself a specified number of times.
 
+example 
+```bash 
+newest_string = "abc" * 3
+print(newest_string)
+print(type(newest_string))
+```
+
+Ans -> abcabcabc
+<class 'str'>
 
 
+Note that you cannot multiply a string by a float! Trying to do so will return an error.
 
 
+![alt text](<image-1.png>)
 
+In the error, the "sequence" is the string "abc", and the "non-int of type `float`" is the float (3.).
 
-
-
+So, the error message can be reworded to say "can't multiply string by float".
 
 
 
