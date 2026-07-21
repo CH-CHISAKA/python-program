@@ -175,5 +175,3 @@ print_hello()
 Ans -> Hello, you!
 Ans -> Good morning!
 
-
-
